@@ -16,7 +16,6 @@ exclude:
 - LICENSE
 - CNAME
 - Gemfile
-- Gemfile.lock
 - garth-jekyll-theme.gemspec
 
 # 2. Installed Gems
@@ -37,9 +36,9 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Blog # Needed for Siteleaf
+    title: 志远的博客 # Needed for Siteleaf
     output: true
-    description: "This is just a demo, find out more [about Garth](about)" # The post list page content
+    description: "博客正在迁移中..." # The post list page content
 
 # 6. Jekyll collections settings
 defaults:
@@ -64,4 +63,4 @@ logo: "/assets/logo.svg" # Site logo
 description: "朱志远的博客" # Site description and default description
 url: "" # Site url
 baseurl: "/blog"
-lang: en-GB
+lang: zh-CN
